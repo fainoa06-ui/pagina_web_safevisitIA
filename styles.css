@@ -3,3 +3,29 @@
 @keyframes float{0%,100%{transform:translateY(0) rotateY(-7deg) rotateX(2deg)}50%{transform:translateY(-10px) rotateY(-5deg) rotateX(2deg)}}@keyframes scan{0%,100%{top:25%;opacity:.5}50%{top:75%;opacity:1}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}@media(min-width:1440px){.hero{min-height:820px}.hero h1{font-size:76px}}@media(max-width:1050px){.nav-links{gap:18px}.hero{column-gap:10px}.hero h1{font-size:58px}.chip-top{right:-10px}.workflow-section{gap:55px}.platform-section{gap:35px}.about-section{gap:45px}.feature-card p{min-height:105px}.dash-sidebar{width:120px}.dash-main{padding:15px}}@media(max-width:800px){.navbar{height:72px}.menu-toggle{display:flex;flex-direction:column;gap:5px;padding:10px;cursor:pointer}.menu-toggle span{display:block;width:22px;height:2px;background:#b8d1da;border-radius:3px}.nav-links{display:none;position:absolute;top:72px;left:0;right:0;padding:20px 24px 25px;background:rgba(5,9,13,.97);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:18px}.nav-links.open{display:flex}.nav-cta{text-align:center}.hero{grid-template-columns:1fr;padding-top:135px;padding-bottom:50px;min-height:auto}.hero-copy{padding-bottom:10px}.hero h1{font-size:clamp(48px,9vw,68px)}.hero-art{height:490px;margin-top:10px}.hero-bottom{bottom:12px}.proof-strip{grid-template-columns:1fr;gap:17px;padding-top:22px;padding-bottom:22px}.proof-strip>div{justify-content:flex-start;max-width:350px;margin:auto;width:100%}.features-section{padding-top:85px;padding-bottom:75px}.section-heading{grid-template-columns:1fr;gap:20px}.feature-grid{grid-template-columns:repeat(2,1fr)}.feature-card p{min-height:75px}.workflow-section,.platform-section,.about-section{grid-template-columns:1fr;gap:45px;padding:60px 0 75px}.workflow-intro{max-width:550px}.platform-copy{max-width:600px}.dashboard-wrap{max-width:650px;width:100%;margin:auto}.safety-note{margin-bottom:80px;grid-template-columns:42px 1fr;padding:22px;gap:14px}.note-icon{width:40px;height:40px}.note-mark{display:none}.about-visual{height:300px;max-width:560px;width:100%;margin:auto}.about-copy{max-width:650px}.contact-section{padding:42px 32px}.contact-decoration{width:130px;height:130px}.contact-shield{font-size:45px;top:27px}.contact-decoration span{margin-top:75px}.footer{grid-template-columns:1fr 1fr}.footer>p{grid-column:1/-1;grid-row:2;margin:0}.footer-links{grid-column:1/-1;grid-row:3;flex-wrap:wrap}.footer-bottom{grid-row:4}}@media(max-width:520px){.section{width:calc(100% - 34px)}.navbar{padding:0 17px}.hero{padding-top:118px}.hero h1{letter-spacing:-2.5px;font-size:47px}.hero-lead{font-size:14px}.hero-actions{flex-direction:column;align-items:stretch}.button{width:100%}.hero-trust{gap:7px;font-size:9px}.hero-art{height:410px;margin-left:-10px;margin-right:-10px}.scan-panel{width:84%;padding:13px}.scan-figure{height:145px}.chip-top{right:0;top:26px}.chip-bottom{left:0;bottom:40px}.floating-chip{padding:8px 9px}.floating-chip strong{font-size:9px}.floating-chip small{font-size:7px}.chip-icon,.chip-check{width:25px;height:25px}.hero-bottom{font-size:7px;letter-spacing:.7px;gap:8px}.bottom-mark{display:none}.features-section{padding-top:70px}.section-heading h2,.workflow-intro h2,.platform-copy h2,.about-copy h2{font-size:35px;letter-spacing:-1.3px}.feature-grid{grid-template-columns:1fr;gap:12px}.feature-visual{height:175px}.feature-card p{min-height:0}.feature-card{padding:12px}.workflow-section{padding-top:30px}.step{grid-template-columns:30px 1fr 30px;gap:10px}.dashboard{min-height:330px}.dash-sidebar{width:42px;padding:12px 5px}.dash-logo{font-size:10px;padding:0 4px 15px}.dash-nav{font-size:14px;text-align:center;padding:8px 2px}.dash-nav span{display:none}.dash-user{justify-content:center}.dash-user>span{display:none}.dash-main{padding:10px}.dash-heading h3{font-size:12px}.metric{padding:8px}.metric strong{font-size:20px}.chart-card,.recent{padding:8px}.recent-row{font-size:7px}.safety-note{grid-template-columns:1fr;padding:20px}.safety-note h2{font-size:15px}.about-visual{height:260px}.about-orb{transform:scale(.8)}.values{gap:16px}.values b{font-size:9px}.contact-section{padding:34px 23px;min-height:0}.contact-decoration{display:none}.contact-content h2{font-size:37px}.contact-content p{font-size:12px}.footer{width:calc(100% - 34px);grid-template-columns:1fr}.footer>p,.footer-links,.footer-bottom{grid-column:1;grid-row:auto}.footer-links{gap:15px}.footer-bottom{gap:8px;flex-direction:column}.proof-strip{padding-left:17px;padding-right:17px}}
 
 .reveal{opacity:0;transform:translateY(16px);transition:opacity .65s ease,transform .65s ease}.reveal.is-visible{opacity:1;transform:translateY(0)}@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+```html
+<section id="nosotros" class="about-section">
+<h2>Sobre nosotros</h2>
+
+<p>
+En SafeVisit AI buscamos contribuir a la
+seguridad de los pacientes mediante la
+prevención de infecciones y el uso adecuado
+de los elementos de protección personal.
+</p>
+
+<h3>Nuestra misión</h3>
+<p>
+Promover una atención sanitaria más segura
+mediante la educación, la prevención y la
+innovación tecnológica.
+</p>
+
+<h3>Nuestra visión</h3>
+<p>
+Impulsar una cultura de seguridad en los
+establecimientos de salud, apoyando el
+cumplimiento de las medidas de aislamiento.
+</p>
+</section>
+```
